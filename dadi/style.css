@@ -4,3 +4,45 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 50%;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    padding: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: rgb(163, 78, 243);
+}
+
+
+h1{
+    background-color: blueviolet;
+    padding: 50px;
+    color: white;
+    font-size: 80px;
+}
+
+h2{
+    margin-top: 50px;
+}
