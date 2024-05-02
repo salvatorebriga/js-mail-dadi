@@ -16,9 +16,6 @@ for(let i = 0; i < email.length; i++){
     }
 }
 
-
-
-
 function myLogin(){
     let verifyEmail = document.getElementById('email').value;
 
